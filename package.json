@@ -1,0 +1,8 @@
+{
+  "author": "Cemil Tokatlı",
+  "name": "photomosaic",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

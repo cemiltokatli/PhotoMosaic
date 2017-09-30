@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script type="text/javascript" src="js/PhotoMosaic5.js"></script>
+    <script type="text/javascript" src="js/mosaic.js"></script>
+    <script type="text/javascript" src="js/client5.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Mosaic</title>
+  </head>
+  <body>
+
+    <div id="dropzone">
+        <input type="file" title="Choose a file or drag it here" />
+        <p>Choose a file or drag it here</p>
+    </div>
+    
+    <div id="result">
+        <div class="content">
+            <div class="message processing">
+              <p>Rendering <span class="progress"></span></p>
+            </div>
+            <div class="message loading">
+              <p>Loading...</p>
+            </div>
+            <div class="message success">
+              <p>The image has successfully been created</p>
+              <p class="close">Close</p>  
+            </div>
+            <div class="message error">
+              <p>Something went wrong</p>
+              <p class="close">Close</p>  
+            </div>
+            <canvas id="drawArea"></canvas>
+        </div>
+    </div>
+
+  </body>
+</html>
