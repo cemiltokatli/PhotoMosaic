@@ -12,7 +12,7 @@ A JavaScript app that generates a photomosaic of an image.
 
  
 ## Usage
-The library files are `PhotoMosaic.js` and `PhotoMosaic5.js`. They both produce the exactly same results. The only difference between them is that `PhotoMosaic.js` is based on old module pattern while `PhotoMosaic5` uses new `class` structure coming with EcmaScript 2015.
+The library files are `PhotoMosaic.js` and `PhotoMosaic5.js`. They both produce the same results. The only difference between them is that `PhotoMosaic.js` is based on old module pattern while `PhotoMosaic5` uses new `class` structure coming with EcmaScript 2015.
 
 `server.js` is the server file that creates an SVG for each given color. It responses to each GET request in the form of `color/4286f4`. Composited photomosaic consists of those SVGs.
 
